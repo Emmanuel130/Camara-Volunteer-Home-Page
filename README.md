@@ -5,7 +5,7 @@
 
 Provides a quick and easy way to create a website to showcase your name, country of origin and projects!
 
-Go to [This Page](https://emmanuel130.github.io/CamaraVolunteer/) to see demo 🙂.
+Go to [This Page](https://emmanuel130.github.io/Camara-Volunteer-Home-Page/) to see demo 🙂.
 
 ## About
 
