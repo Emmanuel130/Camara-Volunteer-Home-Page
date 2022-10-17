@@ -26,7 +26,7 @@
 
   .section {
     text-align: center;
-    background: url("images/camarina.jpg") no-repeat;
+    background: url("images/camuca.jpg") no-repeat;
     background-size: cover;
   }
 
@@ -67,13 +67,13 @@
     height: 100%;
     z-index: 500;
     position: fixed;
-    background-color: rgb(161 32 96);
+    background-color: rgb(23, 86, 138);
     opacity: 1;
      right: -285px;  /* start off behind the scenes */
     -webkit-font-smoothing: antialiased;
     position: fixed;
-    width: 285px;
-    margin: 1px;
+    width: 270px;
+    margin: -1px;
   }
 
   .nav-screen .active {
@@ -87,7 +87,7 @@
     position: absolute;
     left: 0;
     z-index: 500;
-    padding: 10px;
+    padding: 1px;
   }
 
   .nav-brand img {
@@ -96,9 +96,9 @@
 
   .fa-bars {
     display: none !important;
-    color: #337ab7;
+    color: #d8e5f0;
     float: right;
-    padding: 20px;
+    padding: 7px;
     position: absolute;
     right: 0;
     z-index: 500;
@@ -123,7 +123,7 @@
   }
 
   .header-links li {
-    color: rgb(152, 247, 74);
+    color: rgb(8, 6, 19);
     display: inline;
     float: right;
     padding: 15px;
@@ -136,7 +136,7 @@
   }
 
   .header-links a:hover {
-    color: #337ab7 !important;
+    color: #a0df3b !important;
   }
 
   /* slide out nav menu styles */
@@ -214,12 +214,12 @@
   }
 
   .aboutme {
-    background: url("images/camar.jpg");
+    background: url("images/cam.jpg");
     background-size: cover;
   }
 
   .aboutme p {
-    color: rgb(122, 20, 88);
+    color: rgb(20, 61, 122);
     font-weight: 250;
     font-size: 20.4px;
   }
@@ -506,7 +506,7 @@
   }
 
   .social-links a{
-    color: #ffffff;
+    color: #8a727d;
     padding: 0px 5px 0px 5px;
   }
 
@@ -688,7 +688,7 @@
 }
 #button:hover {
   cursor: pointer;
-  background-color: #333;
+  background-color: rgb(23, 76, 155);
 }
 #button:active {
   background-color: #555;
@@ -745,7 +745,7 @@ section > button:hover {
   left: 10.3%;
   width: 80%;
   height: 80%;
-  background: url("images/camari.jpg");
+  background: url("images/camucamu.jpg");
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
