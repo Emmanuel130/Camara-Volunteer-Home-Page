@@ -741,27 +741,27 @@ section > button:hover {
 .pop {
   display: none;
   position: fixed;
-  top: 10.3%;
-  left: 10.3%;
-  width: 80%;
-  height: 80%;
+  top: 9.3%;
+  left: 6.3%;
+  width: 86%;
+  height: 77%;
   background: url("images/camucamu.jpg");
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
-  -o-border-radius: 6px;
+  -o-border-radius: 20px;
   border-radius: 6px;
   outline: 10px solid rgba(119, 119, 119, 0.432);
 }
 .pop > h1 {
-  padding: 15px 18px 5px 30px;
+  padding: 5px 16px 12px 35px;
   color: #171c20;
-  font-size: 100%;
+  font-size: 85%;
   margin-top: 100px;
 }
 .pop > p {
-  padding-left: 30px;
-  font-size: 100%;
+  padding-left: 29px;
+  font-size: 87%;
   color: rgb(255, 248, 248);
 }
 .pop > span {
