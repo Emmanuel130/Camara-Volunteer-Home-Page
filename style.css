@@ -25,8 +25,8 @@
   }
 
   .section {
-    text-align: center;
-    background: url("images/camuca.jpg") no-repeat;
+    text-align: -webkit-center;
+    background: url("images/camuca.jpg");
     background-size: cover;
   }
 
@@ -84,27 +84,31 @@
   /* nav header links */
 
   .nav-brand {
-    position: absolute;
+    position: fixed;
     left: 0;
-    z-index: 500;
+    z-index: 479;
     padding: 1px;
-  }
+    right: -3px;
+    background-color: #375c7a;
+    top: 0;
+}
 
   .nav-brand img {
     width: 101px;
-    margin: 7px;
+    margin: 10px;
   }
 
   .fa-bars {
     display: none !important;
     color: #d8e5f0;
-    float: right;
+    float: left;
     padding: 7px;
-    position: absolute;
-    right: 0;
-    z-index: 500;
+    position: fixed;
+    right: 2px;
+    z-index: 479;
     cursor: pointer;
-  }
+    top: 0px;
+}
 
   .fa-times {
     color: #337ab7;
@@ -116,7 +120,7 @@
   }
 
   .header-links {
-    position: absolute;
+    position: fixed;
     right: 15px;
     width: 100%;
     top: 12px;
@@ -676,7 +680,7 @@
     opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
-  z-index: 1000;
+  z-index: 300;
 }
 #button::after {
   content: "\f077";
@@ -689,7 +693,7 @@
 }
 #button:hover {
   cursor: pointer;
-  background-color: rgb(23, 76, 155);
+  background-color: #375C7A;
 }
 #button:active {
   background-color: #555;
@@ -742,10 +746,10 @@ section > button:hover {
 .pop {
   display: none;
   position: fixed;
-  top: 9.3%;
-  left: 6.3%;
-  width: 86%;
-  height: 77%;
+  top: 15.3%;
+  left: 9.1%;
+  width: 83%;
+  height: 76%;
   background: url("images/camucamu.jpg");
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -753,6 +757,7 @@ section > button:hover {
   -o-border-radius: 20px;
   border-radius: 6px;
   outline: 10px solid rgba(119, 119, 119, 0.432);
+  z-index: 1000;
 }
 .pop > h1 {
   padding: 5px 16px 12px 35px;
